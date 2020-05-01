@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mihir Gupta</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./glider.min.css" />
+        <link
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./custom.css" />
+    </head>
+    <body class="bg-black text-white antialiased font-body">
+        <!-- NAVBAR -->
+        <header class="hidden md:block bg-black-800 fixed top-0 w-full z-20">
+            <div class="container mx-auto p-5">
+                <nav class="flex flex-row md:justify-between items-center">
+                    <div class="flex flex-row justify-between">
+                        <a href="#" class="font-brand text-5xl">Mihir Gupta</a>
+                    </div>
+                    <ul
+                        class="hidden md:flex text-lg md:flex-row"
+                        id="mobileMenu"
+                    >
+                        <li class="mr-5 hover:bg-blue-700">
+                            <a href="#">Projects</a>
+                        </li>
+                        <li class="mr-5"><a href="#">Skills</a></li>
+                        <li class="mr-5"><a href="#">About</a></li>
+                        <li class="mr-5"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <header class="block md:hidden fixed bottom-0 w-full bg-black-800 z-20">
+            <div class="container mx-auto p-5">
+                <ul class="flex justify-between items-center h-10">
+                    <li class="pr-5"><a href="#">Projects</a></li>
+                    <li class="pr-5"><a href="#">Skills</a></li>
+                    <li class="pr-5"><a href="#">About</a></li>
+                    <li class="pr-5"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- class="lg:flex-1 col-start-1 col-end-4 row-start-1 row-end-4 bg-cover"
+                style="
+                    background-image: url(./assets/undraw_dev_productivity_umsq.svg);
+                " -->
+
+        <!-- ? HERO SECTION -->
+        <div
+            class="h-3/4 md:h-screen -z-1 bg-center bg-cover"
+            style="
+                background-image: url('./assets/joshua-reddekopp-SyYmXSDnJ54-unsplash-black-91.jpg');
+            "
+        >
+            <header
+                class="flex md:hidden justify-center mt-10 items-center text-5.5xl"
+            >
+                <div class="font-brand">Mihir Gupta</div>
+            </header>
+
+            <div
+                class="flex items-center container mx-auto h-3/4 px-10 md:my-24"
+            >
+                <div class="md:text-5xl text-4xl">
+                    Hello! I am Mihir Gupta, a full stack MERN developer.
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto h-3/4 lg:px-10 lg:my-24">
+            <!-- ? PROJECT SECTION -->
+            <div class="h-3/4 my-20 relative">
+                <!-- TITLE -->
+                <div
+                    class="text-center text-5.6xl md:text-8xl py-6 font-heading z-10"
+                >
+                    Projects
+                </div>
+                <div
+                    class="text-center text-5.6xl md:text-8xl text-gray-600 opacity-25 font-heading absolute top-0 w-full py-10 px-auto uppercase"
+                >
+                    Projects
+                </div>
+                <!-- flex justify-around flex-wrap -->
+                <!-- * CARD LAYOUT -->
+                <div class="container my-10">
+                    <div class="glider-contain multiple my-auto h-full">
+                        <!-- BACK BUTTON -->
+                        <!-- <button class="glider-prev">
+                            <i class="fa fa-chevron-left"></i>
+                        </button> -->
+
+                        <div class="glider">
+                            <!-- CARD 1 -->
+                            <div
+                                class="bg-gray-200 text-gray-900 rounded-lg overflow-hidden shadow-lg my-12 gallery-cell mx-10"
+                            >
+                                <img
+                                    src="./assets/anna-dudkova-j3BlBeBwxHo-unsplash.jpg"
+                                    alt=""
+                                    class="w-full"
+                                />
+                                <div class="px-6 py-4">
+                                    <div class="text-xl mb-2">The Dog</div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Velit mollitia, at,
+                                        repudiandae facere provident commodi
+                                        iure quasi numquam quas maiores optio
+                                        ullam, doloribus incidunt dolores nihil.
+                                        Nihil, a! Delectus, tempora.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- CARD 2 -->
+                            <div
+                                class="bg-gray-200 text-gray-900 rounded-lg overflow-hidden shadow-lg gallery-cell my-12 mx-10"
+                            >
+                                <img
+                                    src="./assets/anna-dudkova-j3BlBeBwxHo-unsplash.jpg"
+                                    alt=""
+                                    class="w-full"
+                                />
+                                <div class="px-6 py-4">
+                                    <div class="text-xl mb-2">The Dog</div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Velit mollitia, at,
+                                        repudiandae facere provident commodi
+                                        iure quasi numquam quas maiores optio
+                                        ullam, doloribus incidunt dolores nihil.
+                                        Nihil, a! Delectus, tempora.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- CARD3 -->
+                            <div
+                                class="bg-gray-200 text-gray-900 rounded-lg overflow-hidden gallery-cell shadow-lg my-12 mx-10"
+                            >
+                                <img
+                                    src="./assets/anna-dudkova-j3BlBeBwxHo-unsplash.jpg"
+                                    alt=""
+                                    class="w-full"
+                                />
+                                <div class="px-6 py-4">
+                                    <div class="text-xl mb-2">The Dog</div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Velit mollitia, at,
+                                        repudiandae facere provident commodi
+                                        iure quasi numquam quas maiores optio
+                                        ullam, doloribus incidunt dolores nihil.
+                                        Nihil, a! Delectus, tempora.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- CARD4 -->
+                            <div
+                                class="bg-gray-200 text-gray-900 rounded-lg overflow-hidden gallery-cell shadow-lg my-12 mx-10"
+                            >
+                                <img
+                                    src="./assets/anna-dudkova-j3BlBeBwxHo-unsplash.jpg"
+                                    alt=""
+                                    class="w-full"
+                                />
+                                <div class="px-6 py-4">
+                                    <div class="text-xl mb-2">The Dog</div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Velit mollitia, at,
+                                        repudiandae facere provident commodi
+                                        iure quasi numquam quas maiores optio
+                                        ullam, doloribus incidunt dolores nihil.
+                                        Nihil, a! Delectus, tempora.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- CARD4 -->
+                            <div
+                                class="bg-gray-200 text-gray-900 rounded-lg overflow-hidden gallery-cell shadow-lg my-12 mx-10"
+                            >
+                                <img
+                                    src="./assets/anna-dudkova-j3BlBeBwxHo-unsplash.jpg"
+                                    alt=""
+                                    class="w-full"
+                                />
+                                <div class="px-6 py-4">
+                                    <div class="text-xl mb-2">The Dog</div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. Velit mollitia, at,
+                                        repudiandae facere provident commodi
+                                        iure quasi numquam quas maiores optio
+                                        ullam, doloribus incidunt dolores nihil.
+                                        Nihil, a! Delectus, tempora.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- NEXT BUTTON -->
+                        <!-- <button class="glider-next">
+                            <i class="fa fa-chevron-right"></i>
+                        </button> -->
+                        <div class="glider-dots" id="dots"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ? SKILLS SECTIOM -->
+            <div class="mt-40 relative">
+                <!-- TITLE -->
+                <div class="my-10">
+                    <div
+                        class="text-center text-5.6xl md:text-8xl py-4 font-heading z-10"
+                    >
+                        Skills
+                    </div>
+                    <div
+                        class="text-center text-5.6xl md:text-8xl text-gray-600 opacity-25 font-heading absolute top-0 w-full py-10 px-auto uppercase"
+                    >
+                        Skills
+                    </div>
+                </div>
+                <!-- CARD LAYOUT -->
+                <div class="grid grid-cols-3 gap-10 py-10">
+                    <!-- REACT CARD -->
+                    <div class="flex justify-center">
+                        <!-- lg:h-40 md:h-32 sm:h-24 lg:w-40 md:w-32 sm:w-24 -->
+                        <div
+                            class="bg-gray-300 h-24 w-24 md:h-32 md:w-32 lg:h-40 lg:w-40 text-gray-900 flex rounded-lg p-2"
+                        >
+                            <img
+                                src="./assets/react.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                    <!-- MONGO CARD -->
+                    <div class="flex justify-center">
+                        <div
+                            class="bg-gray-300 h-24 w-24 md:h-32 md:w-32 lg:h-40 lg:w-40 flex text-gray-900 rounded-lg p-2"
+                        >
+                            <img
+                                src="./assets/mongo.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                    <!-- JS CARD -->
+                    <div class="flex justify-center">
+                        <div
+                            class="bg-gray-300 h-24 w-24 md:h-32 md:w-32 lg:h-40 lg:w-40 flex text-gray-900 rounded-lg p-2"
+                        >
+                            <img
+                                src="./assets/js.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                    <!-- PYTHON CARD -->
+                    <div class="flex justify-center">
+                        <div
+                            class="bg-gray-300 h-24 w-24 md:h-32 md:w-32 lg:h-40 lg:w-40 flex text-gray-900 rounded-lg p-4"
+                        >
+                            <img
+                                src="./assets/python.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                    <!-- NODE CARD -->
+                    <div class="flex justify-center">
+                        <div
+                            class="bg-gray-300 h-24 w-24 md:h-32 md:w-32 lg:h-40 lg:w-40 flex text-gray-900 rounded-lg p-4"
+                        >
+                            <img
+                                src="./assets/Node.js_logo.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ? ABOUT ME SECTION -->
+            <div class="my-20 relative">
+                <!-- TITLE -->
+                <div class="mb-10">
+                    <div
+                        class="text-center text-5.6xl md:text-8xl py-4 font-heading z-10"
+                    >
+                        About Me
+                    </div>
+                    <div
+                        class="text-center text-5.6xl md:text-8xl text-gray-600 opacity-25 font-heading absolute top-0 w-full py-10 px-auto uppercase"
+                    >
+                        About Me
+                    </div>
+                </div>
+
+                <!-- ABOUT ME TEXT -->
+                <div class="mx-10">
+                    <p class="text-justify text-md md:text-lg leading-relaxed">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Eveniet aliquam expedita aliquid quis deleniti?
+                        Dignissimos in quibusdam saepe dolorum explicabo velit.
+                        Iure laboriosam unde quia libero nisi eos ullam fugit!
+                        Unde aliquid quasi ad alias omnis hic doloribus velit
+                        aspernatur perspiciatis saepe blanditiis aperiam
+                        voluptas laboriosam incidunt fuga minima, quaerat id
+                        quia a nesciunt, vel nihil illo voluptatem expedita.
+                        Eius et hic alias reprehenderit dolorem, sapiente
+                        veritatis voluptatem nemo excepturi odio quibusdam, nam
+                        omnis ex esse molestias? Minima sapiente architecto
+                        veritatis aperiam consequatur. Consequatur dignissimos
+                        corrupti quis eius in, iusto eaque explicabo aut ipsam
+                        nihil veritatis recusandae debitis minus soluta?
+                    </p>
+                </div>
+            </div>
+
+            <!-- ? CONTACT ME SECTION -->
+            <div class="h-screen relative">
+                <div
+                    class="text-center text-5.6xl md:text-8xl py-4 font-heading z-10"
+                >
+                    Contact Me
+                </div>
+                <div
+                    class="text-center text-5.6xl md:text-8xl absolute top-0 w-full uppercase text-gray-600 opacity-25 px-auto py-10 font-heading"
+                >
+                    Contact Me
+                </div>
+
+                <div class="grid md:grid-cols-5 grid-cols-3 gap-10 py-10">
+                    <!-- GITHUB CARD -->
+                    <div class="flex justify-center">
+                        <!-- lg:h-40 md:h-32 sm:h-24 lg:w-40 md:w-32 sm:w-24 -->
+                        <div
+                            class="bg-gray-300 h-20 w-20 text-gray-900 flex rounded-lg p-2"
+                        >
+                            <img
+                                src="./assets/github-brands.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                    <!-- INSTAGRAM CARD -->
+                    <div class="flex justify-center">
+                        <div
+                            class="bg-gray-300 h-20 w-20 flex text-gray-900 rounded-lg p-2"
+                        >
+                            <img
+                                src="./assets/instagram-brands.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                    <!-- EMAIL CARD -->
+                    <div class="flex justify-center">
+                        <div
+                            class="bg-gray-300 h-20 w-20 flex text-gray-900 rounded-lg p-2"
+                        >
+                            <img
+                                src="./assets/envelope-solid.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                    <!-- LINKEDIN CARD -->
+                    <div class="flex justify-center">
+                        <div
+                            class="bg-gray-300 h-20 w-20 flex text-gray-900 rounded-lg p-4"
+                        >
+                            <img
+                                src="./assets/linkedin-in-brands.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                    <!-- TWITTER CARD -->
+                    <div class="flex justify-center">
+                        <div
+                            class="bg-gray-300 h-20 w-20 flex text-gray-900 rounded-lg p-4"
+                        >
+                            <img
+                                src="./assets/twitter-brands.svg"
+                                alt=""
+                                class="w-full item-center"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./glider.min.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>

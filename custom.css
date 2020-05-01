@@ -1,0 +1,20 @@
+.glider-next {
+    right: -50px;
+    top: 45%;
+}
+
+.glider-prev {
+    left: -40px;
+    top: 45%;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.active{
+    display: block;
+}
